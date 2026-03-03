@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Royal Premium Bakery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- PWA Manifest -->
+  <link rel="manifest" href="manifest.json">
+
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("service-worker.js");
+    }
+  </script>
+
+</head>
+
+<body>
+
+<nav>
+  <a href="pizza.html">Pizza</a>
+  <a href="burger.html">Burger</a>
+  <a href="beverages.html">Beverages</a>
+  <a href="fastfood.html">Fast Food</a>
+  <a href="cart.html">Cart</a>
+</nav>
+
+<h1>👑 Royal Premium Bakery</h1>
+
+<div class="container">
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1601924582975-7e6c0d6c6b7a">
+    <h3>Delicious Pizzas</h3>
+    <p>Explore premium varieties</p>
+    <a href="pizza.html"><button>View Pizza</button></a>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1550547660-d9450f859349">
+    <h3>Juicy Burgers</h3>
+    <p>Fresh & Loaded</p>
+    <a href="burger.html"><button>View Burger</button></a>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1544145945-f90425340c7e">
+    <h3>Refreshing Beverages</h3>
+    <p>Cool & Fresh Drinks</p>
+    <a href="beverages.html"><button>View Beverages</button></a>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1561758033-d89a9ad46330">
+    <h3>Fast Food Specials</h3>
+    <p>Crispy & Tasty</p>
+    <a href="fastfood.html"><button>View Fast Food</button></a>
+  </div>
+
+</div>
+
+</body>
+</html>
