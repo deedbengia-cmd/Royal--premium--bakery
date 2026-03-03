@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Beverages - Royal Premium Bakery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="pizza.html">Pizza</a>
+  <a href="burger.html">Burger</a>
+  <a href="fastfood.html">Fast Food</a>
+  <a href="cart.html">Cart</a>
+</nav>
+
+<h1>🥤 Refreshing Beverages</h1>
+
+<div class="container">
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1544145945-f90425340c7e">
+    <h3>Cold Coffee</h3>
+    <p>₹129</p>
+    <input type="number" id="d1" value="1" min="1">
+    <button onclick="addToCart('Cold Coffee',129,'d1')">
+      Add to Cart
+    </button>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b">
+    <h3>Fresh Lemonade</h3>
+    <p>₹99</p>
+    <input type="number" id="d2" value="1" min="1">
+    <button onclick="addToCart('Fresh Lemonade',99,'d2')">
+      Add to Cart
+    </button>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
