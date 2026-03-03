@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Burger - Royal Premium Bakery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="pizza.html">Pizza</a>
+  <a href="beverages.html">Beverages</a>
+  <a href="fastfood.html">Fast Food</a>
+  <a href="cart.html">Cart</a>
+</nav>
+
+<h1>🍔 Premium Burgers</h1>
+
+<div class="container">
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1550547660-d9450f859349">
+    <h3>Classic Chicken Burger</h3>
+    <p>₹199</p>
+    <input type="number" id="b1" value="1" min="1">
+    <button onclick="addToCart('Classic Chicken Burger',199,'b1')">
+      Add to Cart
+    </button>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd">
+    <h3>Double Patty Burger</h3>
+    <p>₹299</p>
+    <input type="number" id="b2" value="1" min="1">
+    <button onclick="addToCart('Double Patty Burger',299,'b2')">
+      Add to Cart
+    </button>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1586190848861-99aa4a171e90">
+    <h3>Veggie Deluxe Burger</h3>
+    <p>₹179</p>
+    <input type="number" id="b3" value="1" min="1">
+    <button onclick="addToCart('Veggie Deluxe Burger',179,'b3')">
+      Add to Cart
+    </button>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
