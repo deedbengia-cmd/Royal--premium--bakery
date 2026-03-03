@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pizza - Royal Premium Bakery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="burger.html">Burger</a>
+  <a href="beverages.html">Beverages</a>
+  <a href="fastfood.html">Fast Food</a>
+  <a href="cart.html">Cart</a>
+</nav>
+
+<h1>🍕 Premium Pizzas</h1>
+
+<div class="container">
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1601924582975-7e6c0d6c6b7a">
+    <h3>Cheese Burst Pizza</h3>
+    <p>₹299</p>
+    <input type="number" id="p1" value="1" min="1">
+    <button onclick="addToCart('Cheese Burst Pizza',299,'p1')">
+      Add to Cart
+    </button>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1548365328-8b849e9b1f0d">
+    <h3>Pepperoni Pizza</h3>
+    <p>₹399</p>
+    <input type="number" id="p2" value="1" min="1">
+    <button onclick="addToCart('Pepperoni Pizza',399,'p2')">
+      Add to Cart
+    </button>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1594007654729-407eedc4be65">
+    <h3>Veg Supreme Pizza</h3>
+    <p>₹349</p>
+    <input type="number" id="p3" value="1" min="1">
+    <button onclick="addToCart('Veg Supreme Pizza',349,'p3')">
+      Add to Cart
+    </button>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
